@@ -1,0 +1,33 @@
+version: '3'
+
+services:
+    # nginx
+    web:
+        image: nginx:stable-alpine
+        container_name: nginx-cooku-container
+        ports:
+            - "8080:80"
+        volumes:
+            - ./src/:/var/www
+            - ./docker/nginx/conf:/etc/nginx/conf.d
+
+        depends_on:
+            - app
+        networks:
+            - cooku-network
+
+    # php
+    app:
+        build:
+            context: .
+            dockerfile: ./docker/php/Dockerfile
+        container_name: php-cooku-container
+        ports:
+            - "9000:9000"
+        volumes:
+            - ./src:/var/www
+        networks:
+            - cooku-network
+
+networks:
+    cooku-network:
