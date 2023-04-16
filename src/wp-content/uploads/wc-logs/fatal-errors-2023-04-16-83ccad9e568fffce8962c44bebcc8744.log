@@ -1,0 +1,85 @@
+2023-04-16T07:59:43+00:00 CRITICAL Uncaught Error: Undefined constant "cookoo_themes" in /var/www/wp-content/themes/cookoo_themes/functions.php:52
+Stack trace:
+#0 /var/www/wp-includes/class-wp-hook.php(308): cookoo_themes_setup('')
+#1 /var/www/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#2 /var/www/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#3 /var/www/wp-settings.php(601): do_action('after_setup_the...')
+#4 /var/www/wp-config.php(99): require_once('/var/www/wp-set...')
+#5 /var/www/wp-load.php(50): require_once('/var/www/wp-con...')
+#6 /var/www/wp-admin/admin.php(34): require_once('/var/www/wp-loa...')
+#7 /var/www/wp-admin/themes.php(10): require_once('/var/www/wp-adm...')
+#8 {main}
+  thrown in /var/www/wp-content/themes/cookoo_themes/functions.php on line 52
+
+2023-04-16T08:00:31+00:00 CRITICAL Uncaught Error: Undefined constant "cookoo_themes" in /var/www/wp-content/themes/cookoo_themes/header.php:26
+Stack trace:
+#0 /var/www/wp-includes/template.php(783): require_once()
+#1 /var/www/wp-includes/template.php(718): load_template('/var/www/wp-con...', true, Array)
+#2 /var/www/wp-includes/general-template.php(48): locate_template(Array, true, true, Array)
+#3 /var/www/wp-content/themes/cookoo_themes/index.php(15): get_header()
+#4 /var/www/wp-includes/template-loader.php(106): include('/var/www/wp-con...')
+#5 /var/www/wp-blog-header.php(19): require_once('/var/www/wp-inc...')
+#6 /var/www/index.php(17): require('/var/www/wp-blo...')
+#7 {main}
+  thrown in /var/www/wp-content/themes/cookoo_themes/header.php on line 26
+
+2023-04-16T08:00:41+00:00 CRITICAL Uncaught Error: Undefined constant "cookoo_themes" in /var/www/wp-content/themes/cookoo_themes/header.php:26
+Stack trace:
+#0 /var/www/wp-includes/template.php(783): require_once()
+#1 /var/www/wp-includes/template.php(718): load_template('/var/www/wp-con...', true, Array)
+#2 /var/www/wp-includes/general-template.php(48): locate_template(Array, true, true, Array)
+#3 /var/www/wp-content/themes/cookoo_themes/index.php(15): get_header()
+#4 /var/www/wp-includes/template-loader.php(106): include('/var/www/wp-con...')
+#5 /var/www/wp-blog-header.php(19): require_once('/var/www/wp-inc...')
+#6 /var/www/index.php(17): require('/var/www/wp-blo...')
+#7 {main}
+  thrown in /var/www/wp-content/themes/cookoo_themes/header.php on line 26
+
+2023-04-16T08:01:00+00:00 CRITICAL Uncaught Error: Undefined constant "cookoo_themes" in /var/www/wp-content/themes/cookoo_themes/header.php:26
+Stack trace:
+#0 /var/www/wp-includes/template.php(783): require_once()
+#1 /var/www/wp-includes/template.php(718): load_template('/var/www/wp-con...', true, Array)
+#2 /var/www/wp-includes/general-template.php(48): locate_template(Array, true, true, Array)
+#3 /var/www/wp-content/themes/cookoo_themes/index.php(15): get_header()
+#4 /var/www/wp-includes/template-loader.php(106): include('/var/www/wp-con...')
+#5 /var/www/wp-blog-header.php(19): require_once('/var/www/wp-inc...')
+#6 /var/www/index.php(17): require('/var/www/wp-blo...')
+#7 {main}
+  thrown in /var/www/wp-content/themes/cookoo_themes/header.php on line 26
+
+2023-04-16T08:01:48+00:00 CRITICAL Uncaught Error: Undefined constant "cookoo_themes" in /var/www/wp-content/themes/cookoo_themes/header.php:26
+Stack trace:
+#0 /var/www/wp-includes/template.php(783): require_once()
+#1 /var/www/wp-includes/template.php(718): load_template('/var/www/wp-con...', true, Array)
+#2 /var/www/wp-includes/general-template.php(48): locate_template(Array, true, true, Array)
+#3 /var/www/wp-content/themes/cookoo_themes/single.php(10): get_header()
+#4 /var/www/wp-includes/template-loader.php(106): include('/var/www/wp-con...')
+#5 /var/www/wp-blog-header.php(19): require_once('/var/www/wp-inc...')
+#6 /var/www/index.php(17): require('/var/www/wp-blo...')
+#7 {main}
+  thrown in /var/www/wp-content/themes/cookoo_themes/header.php on line 26
+
+2023-04-16T08:02:33+00:00 CRITICAL Uncaught Error: Undefined constant "cookoo_themes" in /var/www/wp-content/themes/cookoo_themes/header.php:26
+Stack trace:
+#0 /var/www/wp-includes/template.php(783): require_once()
+#1 /var/www/wp-includes/template.php(718): load_template('/var/www/wp-con...', true, Array)
+#2 /var/www/wp-includes/general-template.php(48): locate_template(Array, true, true, Array)
+#3 /var/www/wp-content/themes/cookoo_themes/single.php(10): get_header()
+#4 /var/www/wp-includes/template-loader.php(106): include('/var/www/wp-con...')
+#5 /var/www/wp-blog-header.php(19): require_once('/var/www/wp-inc...')
+#6 /var/www/index.php(17): require('/var/www/wp-blo...')
+#7 {main}
+  thrown in /var/www/wp-content/themes/cookoo_themes/header.php on line 26
+
+2023-04-16T08:05:07+00:00 CRITICAL Uncaught Error: Undefined constant "cookoo_themes" in /var/www/wp-content/themes/cookoo_themes/header.php:26
+Stack trace:
+#0 /var/www/wp-includes/template.php(783): require_once()
+#1 /var/www/wp-includes/template.php(718): load_template('/var/www/wp-con...', true, Array)
+#2 /var/www/wp-includes/general-template.php(48): locate_template(Array, true, true, Array)
+#3 /var/www/wp-content/themes/cookoo_themes/single.php(10): get_header()
+#4 /var/www/wp-includes/template-loader.php(106): include('/var/www/wp-con...')
+#5 /var/www/wp-blog-header.php(19): require_once('/var/www/wp-inc...')
+#6 /var/www/index.php(17): require('/var/www/wp-blo...')
+#7 {main}
+  thrown in /var/www/wp-content/themes/cookoo_themes/header.php on line 26
+
